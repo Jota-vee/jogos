@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="menu">
+        <div class="nome_jogo">
+            <p>Jogo da memoria tunado</p>
+        </div>
+        <p>Esta é a pior coisa que você irá jogar hoje</p>
+
+        <label>Modo de jogo</label>
+        <select id="modo">
+            <option value="1">sou um lobo solitario</option>
+            <option value="2">sou um tigre sociavel</option>
+            </option>
+        </select>
+
+        <label>Dificuldade</label>
+        <select id="dificuldade">
+            <option value="facil">tenho problemas cognitivos</option>
+            <option value="normal">não possuo nenhum problema mental</option>
+            <option value="dificil">temho um intelecto avançado</option>
+            <option value="impossivel">não tenho nada pra fazer</option>
+        </select>
+        <a href="html/gameplay.html"><button onclick="dados_iniciais()">Começar</button></a>
+    </section>
+</body>
+<script src="js/script.js"></script>
+</html>
